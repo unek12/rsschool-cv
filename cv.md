@@ -44,4 +44,4 @@ I'm a result oriented frontend developer with experience in creating Landing Pag
 
 ### Languages:
 * Russian - native language
-* English - B2
+* English - B1
