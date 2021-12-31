@@ -16,23 +16,24 @@ I'm a result oriented frontend developer with experience in creating Landing Pag
 ### Code example:
 
 **Solution:**
-```  function solution(num) {
-       let count = 0;
-       let num3 = Math.floor(num / 3);
-       let num5 = Math.floor(num / 5);
-       count = sum(num, count);
-       return count;
-     }
+```  
+ function solution(num) {
+   let count = 0;
+   let num3 = Math.floor(num / 3);
+   let num5 = Math.floor(num / 5);
+   count = sum(num, count);
+   return count;
+ }
 
-     function sum(num, count) {
-         for (let i = 0; i < num; i++) {
-             if (i / 3 === Math.floor(i / 3) ||
-              i / 5 === Math.floor(i / 5)) {
-                 count += i;
-             }
+ function sum(num, count) {
+     for (let i = 0; i < num; i++) {
+         if (i / 3 === Math.floor(i / 3) ||
+          i / 5 === Math.floor(i / 5)) {
+             count += i;
          }
-         return count;
-     }  
+     }
+     return count;
+ }  
 ```
 
 ### Education:
